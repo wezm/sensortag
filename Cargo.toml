@@ -1,0 +1,12 @@
+[package]
+name = "sensortag-test"
+version = "0.1.0"
+authors = ["Wesley Moore <wes@wezm.net>"]
+edition = "2018"
+
+[dependencies]
+cortex-m = "0.5.6"
+panic-halt = "0.2.0"
+cortex-m-rt = "0.6.3"
+cc2650f128 = { path = "../../Source/dslite2svd/crates/cc2650f128" }
+cc2650-hal = { path = "../cc2650-hal" }
