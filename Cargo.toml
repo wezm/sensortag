@@ -4,6 +4,10 @@ version = "0.1.0"
 authors = ["Wesley Moore <wes@wezm.net>"]
 edition = "2018"
 
+repository = "https://git.sr.ht/~wezm/sensortag"
+keywords = ["arm", "cortex-m", "ti", "simplelink"]
+categories = ["embedded"]
+
 [dependencies]
 cortex-m = "0.5.6"
 panic-halt = "0.2.0"
